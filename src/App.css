@@ -1,0 +1,78 @@
+.container{
+     display:flex;
+     justify-content: center;
+     height:100vh;
+     align-items: center;
+
+}
+.container-card{
+     width:450px;
+     background:white;
+     border-radius: 10px;
+     padding:20px;
+     box-shadow: 10px 10px 10px black;
+     background:linear-gradient(rgba(0, 0, 0, 0.659),rgb(13, 13, 175),black);
+}
+.container-card h1{
+     font-size: 3rem;
+     font-weight: bolder;
+     text-align: center;
+     padding:5px;
+     color:rgb(201, 45, 201);
+}
+.inputs{
+     position: relative;
+     width:80%;
+     margin:10px auto;
+}
+.inputs input{
+     width:100%;
+     padding:12px;
+     border-radius: 10px;
+     border: 1px solid rgba(0,0,0,.5);
+     outline: none;
+     font-size: 18px;
+     font-weight: bold;
+}
+.inputs button{
+     position: absolute;
+     top:0;
+     right:0;
+     padding:15px;
+     border-radius: 10px;
+     outline:none;
+     border: none;
+     background:violet;
+     color:white;
+     cursor: pointer;
+}
+.temp{
+
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.temp h2{
+     font-size: 2rem;
+     color:white;
+     margin-top: -15px;
+}
+.weather-details{
+     padding:10px;
+     color:white;
+     width:90%;
+     margin: 10px auto;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+.wind{
+     text-align: center;
+
+}
+.humidity{
+     text-align: center;
+}
+span{
+     font-size: 1rem;
+}
